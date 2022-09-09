@@ -1,16 +1,18 @@
 body {
     margin: 0;
+    font-family: "Roboto", sans-serif;
 }
 
 /* this is for the nav bar */
 
 .navbar {
+    padding-top: 10px;
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 270px;
-    margin-right: 270px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 nav {
@@ -32,25 +34,32 @@ a:link, a:visited, a:hover {
 
 .header-logo {
     font-size: 24px;
+    font-weight: bold;
     color: #F9FAF8;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
 }
 
 /* this is for the hero section*/
 
 .hero {
-    padding-bottom:  40px;
+    padding-top : 50px;
+    padding-bottom:  100px;
     background-color: #1F2937;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 110px;
+    gap: 240px;
 }
 
 h1 {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
-    margin-bottom: -20px;
+    margin: -5px;
 }
 
 .subtext {
@@ -68,7 +77,7 @@ h1 {
 
 .place-holder {
     margin-top: 70px;
-    background-color: #E5E7EB;
+    background-color: #1F2937;
     width: 400px;
     height: 200px;
     display: flex;
@@ -76,11 +85,49 @@ h1 {
     align-items: center;
 }
 
+.goal {
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+}
+
 button {
     color: white;
     font-weight: bold;
-    width: 100px;
-    padding: 5px;
-    border-radius: 5px;
+    width: 120px;
+    padding: 10px;
+    border-radius: 10px;
     background-color: #3882F6;
+}
+
+/* this is for the random info section */
+
+.footballer {
+    border: 3px solid;
+    border-color: #3882F6;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.greats {
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ibra, .ronaldo, .messi, .pele {
+    width: 250px;
+    height: 250px;
 }

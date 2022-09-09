@@ -2,18 +2,15 @@ body {
     margin: 0;
 }
 
-.hero {
-    background-color: #1F2937;
-    display: flex;
-    flex-direction: column;
-}
+/* this is for the nav bar */
+
 .navbar {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 270px;
+    margin-right: 270px;
 }
 
 nav {
@@ -36,4 +33,54 @@ a:link, a:visited, a:hover {
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
+}
+
+/* this is for the hero section*/
+
+.hero {
+    padding-bottom:  40px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-bottom: -20px;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.top-left {
+    margin-top: 30px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.place-holder {
+    margin-top: 70px;
+    background-color: #E5E7EB;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #3882F6;
 }

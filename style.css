@@ -5,14 +5,19 @@ body {
 .hero {
     background-color: #1F2937;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
 }
-
 .navbar {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+nav {
+    background-color: #1F2937;
 }
 
 .header-links {

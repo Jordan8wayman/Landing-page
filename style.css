@@ -154,3 +154,28 @@ h2 {
     margin-bottom: 100px;
 }
 
+/* this is the call to action section */
+
+.action {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-button {
+    color: white;
+    border-radius: 16px;
+    padding: 16px;
+    width: 900px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sign-up {
+    border: 2px solid;
+    border-color: white;
+}
+
